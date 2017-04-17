@@ -1,0 +1,195 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/twolfson/grunt-zip">grunt-zip (v0.17.1)</a>
+</h1>
+<h4>Zip and unzip files via a grunt plugin</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.grunt-zip">module grunt-zip</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.grunt-zip.Gruntfile">
+            function <span class="apidocSignatureSpan">grunt-zip.</span>Gruntfile
+            <span class="apidocSignatureSpan">(grunt)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.grunt-zip.Gruntfile">module grunt-zip.Gruntfile</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.grunt-zip.Gruntfile.Gruntfile">
+            function <span class="apidocSignatureSpan">grunt-zip.</span>Gruntfile
+            <span class="apidocSignatureSpan">(grunt)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.grunt-zip" id="apidoc.module.grunt-zip">module grunt-zip</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.grunt-zip.Gruntfile" id="apidoc.element.grunt-zip.Gruntfile">
+        function <span class="apidocSignatureSpan">grunt-zip.</span>Gruntfile
+        <span class="apidocSignatureSpan">(grunt)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Gruntfile = function (grunt) {
+
+  // Project configuration.
+  grunt.initConfig({
+    jshint: {
+      files: ['grunt.js', 'tasks/**/*.js', 'test/*.js'],
+      options: {
+        curly: true,
+        eqeqeq: true,
+        immed: true,
+        latedef: true,
+        newcap: true,
+        noarg: true,
+        sub: true,
+        undef: true,
+        boss: true,
+        eqnull: true,
+        node: true,
+
+        strict: false
+      },
+    },
+    watch: {
+      files: '&lt;config:lint.files&gt;',
+      tasks: 'default'
+    }
+  });
+
+  grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+
+  // Default task.
+  grunt.registerTask('lint', ['jshint']);
+  grunt.registerTask('default', ['lint']);
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.grunt-zip.Gruntfile" id="apidoc.module.grunt-zip.Gruntfile">module grunt-zip.Gruntfile</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.grunt-zip.Gruntfile.Gruntfile" id="apidoc.element.grunt-zip.Gruntfile.Gruntfile">
+        function <span class="apidocSignatureSpan">grunt-zip.</span>Gruntfile
+        <span class="apidocSignatureSpan">(grunt)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Gruntfile = function (grunt) {
+
+  // Project configuration.
+  grunt.initConfig({
+    jshint: {
+      files: ['grunt.js', 'tasks/**/*.js', 'test/*.js'],
+      options: {
+        curly: true,
+        eqeqeq: true,
+        immed: true,
+        latedef: true,
+        newcap: true,
+        noarg: true,
+        sub: true,
+        undef: true,
+        boss: true,
+        eqnull: true,
+        node: true,
+
+        strict: false
+      },
+    },
+    watch: {
+      files: '&lt;config:lint.files&gt;',
+      tasks: 'default'
+    }
+  });
+
+  grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+
+  // Default task.
+  grunt.registerTask('lint', ['jshint']);
+  grunt.registerTask('default', ['lint']);
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
